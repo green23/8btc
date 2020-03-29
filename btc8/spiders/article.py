@@ -4,7 +4,7 @@ from urllib.parse import urljoin
 from decimal import Decimal
 from scrapy.spiders import CrawlSpider
 from scrapy_splash import SplashRequest
-from btc8.items import Btc8Item, Btc8ArticleItem
+from btc8.items import Btc8ArticleItem
 from datetime import datetime
 
 logger = logging.getLogger(__name__)
